@@ -31,7 +31,7 @@ class Test_Str extends Elementor_Test_Base {
 	public function test_encode_idn_url__encodes_idn_url() {
 		// Arrange.
 		$url = 'https://é.com/some/path/to/file.php';
-		$expected = 'https://xn--9ca.com/some/path/to/file.php';
+		$expected = 'https://xn--gba16o.com/some/path/to/file.php';
 
 		// Act.
 		$encoded_url = Str::encode_idn_url( $url );
